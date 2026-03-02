@@ -31,5 +31,8 @@ int main()
     std::cout << "Atlag: " << atlag << std::endl;
 
     delete[] b; // memória felszabadítása
+
+    std::cout << "Ez az uj branchbol jon!" << std::endl;
+
     return 0;
 }
